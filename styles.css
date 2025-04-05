@@ -1,0 +1,28 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+  }
+.nav ul{
+    list-style: none;
+    display: flex;
+    gap: 70px;
+    font-size:20px ;
+  
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section {
+    height: 100vh; /* full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    scroll-margin-top: 70px; /* avoid hiding behind navbar */
+  }
